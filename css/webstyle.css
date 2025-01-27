@@ -1,0 +1,226 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;  
+}
+
+aside {
+  background-color: Orange;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;  
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  box-sizing: border-box;    
+}
+
+section {
+  width: 100%;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;    
+}
+
+section h2 {
+  color: chocolate;
+}
+
+section span {
+  font-weight: 900;	
+}
+
+header ul {
+  justify-content: center;
+}
+
+header ul li {
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+	
+  aside {
+    display: table-cell;
+    vertical-align: top;
+    width: 24%;	
+    box-sizing: border-box;  	
+  }
+  
+  section {
+    display: table-cell;
+    vertical-align: top;
+    width: 76%;	
+  }
+  
+  .wrapper {
+    display: table;
+	width: 100%;
+  }  
+  
+  header ul {
+    text-align: left;
+  }
+
+  header ul li {
+    display: inline;
+  }
+  
+  
+  aside figure img {
+	margin-left: 4px;
+    width: 88%;
+  }
+
+}  
+
+header, footer {
+  clear: both;	
+  text-align: center;
+}
+
+header {
+  background-color: darkorange;
+  color : white;	
+}
+
+footer {
+  font-weight: bold;
+  background-color: chocolate;
+  color : black;	
+}
+
+section {
+  background-color: white;	
+}
+
+.wide { 
+  background: yellow;
+  width: 100%;
+  height: 5px;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section img {
+  width: 44%;
+}
+
+aside p {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 32px;
+}
+
+section p {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 48px;
+}
+
+p.list_style {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+p.small_margin {
+  margin-bottom: 16px;
+  margin-top: 2px;
+}
+
+address {
+  display: block;
+  font-weight: normal;	
+  font-style: normal;  
+}
+
+form {
+ width: 100%;	
+}
+
+input, select, textarea {
+  border: 1px solid gray;
+  padding: 8px 12px;
+  margin: 8px 0;	
+  width: 98%;
+  box-sizing: border-box;
+  border-radius: 5px;  
+  margin-bottom:20px;
+  cursor: pointer;
+}
+
+textarea {
+  height: 200px;	
+}
+
+input.verzend {
+  width: auto;
+  color : white;
+  border-radius: 5px;
+  background-color: chocolate;  
+  border: none;
+  padding: 16px 28px;
+  cursor: pointer; 	
+}
+
+label {
+  font-weight: 900;	
+  cursor: pointer;  
+}
+
+div.img_left, div.img_right { 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.img_left figure img {
+  float: left;
+  padding: 6px;
+  width: 24%;  
+}
+
+div.img_right figure img {
+  float: right;
+  padding: 6px;
+  width: 20%;  
+}
+
+article.clear_both {
+  clear: both;
+}
+
+header ul {
+  background-color: chocolate;
+  list-style-type: none;
+  margin: 0;
+  padding-inline: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+header ul li a {
+  color : white;  
+  text-decoration: none;
+  padding-left: 8px;
+}
+
+
